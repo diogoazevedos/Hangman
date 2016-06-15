@@ -1,0 +1,3 @@
+<h1>{{ game.getWord() }}</h1>
+
+<button *ngFor="let letter of alphabet" (click)="makeGuess(letter)">{{ letter }}</button>
